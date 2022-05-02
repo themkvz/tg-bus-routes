@@ -1,0 +1,34 @@
+name: '(вул.: Героїв Небесної Сотні, В. Котика, Українська, В. Котика, Митрополита Шептицького, Генерала Шухевича, Староконстянтинівське шосе)'
+departure: Залізничний вокзал
+arrival: Автостанція
+schedules: 
+  - id: з понеділка по п’ятницю
+    times: 
+      - { departure: 6:50, arrival: 7:30 }
+      - { departure: 8:00, arrival: 8:30 }
+      - { departure: 9:00, arrival: 9:30, discount: true }
+      - { departure: 10:00, arrival: 10:30 }
+      - { departure: 11:00, arrival: 11:30 }
+      - { departure: 12:00, arrival: 12:30 }
+      - { departure: перерва, arrival: перерва }
+      - { departure: 14:00, arrival: 14:30 }
+      - { departure: 15:00, arrival: 15:30 }
+      - { departure: 16:00, arrival: 16:30 }
+      - { departure: 17:00, arrival: 17:30 }
+      - { departure: 18:20, arrival: 18:50, discount: true }
+      - { departure: 19:40 }
+  - id: в суботу
+    times: 
+      - { departure: 6:50, arrival: 7:30 }
+      - { departure: 8:00, arrival: 8:30 }
+      - { departure: 9:00, arrival: 9:30, discount: true }
+      - { departure: 10:00, arrival: 10:30 }
+      - { departure: 11:00, arrival: 11:30 }
+      - { departure: 12:00, arrival: 12:30 }
+      - { departure: перерва, arrival: перерва }
+      - { departure: 14:00, arrival: 14:30 }
+      - { departure: 15:00, arrival: 15:30 }
+      - { departure: 16:00, arrival: 16:30 }
+      - { departure: 17:00, arrival: 17:30 }
+      - { departure: 18:20, arrival: 18:50, discount: true }
+      - { departure: 19:40 }
