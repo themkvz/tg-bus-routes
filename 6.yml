@@ -1,0 +1,19 @@
+name: '(вул. Залізнична, Героїв Небесної Сотні, В.Котика, Новоград-Волинське шосе)'
+departure: Залізничний вокзал
+arrival: Школа №8
+schedules: 
+  - id: 1
+    times: 
+      - { departure: 7:05, arrival: 7:45 }
+      - { departure: 8:15, arrival: 8:45 }
+      - { departure: 9:15, arrival: 9:45, discount: true }
+      - { departure: 10:15, arrival: 10:45 }
+      - { departure: 11:15, arrival: 11:45 }
+      - { departure: 12:15, arrival: 12:45 }
+      - { departure: перерва, arrival: перерва }
+      - { departure: 14:15, arrival: 14:45 }
+      - { departure: 15:15, arrival: 15:45, discount: true }
+      - { departure: 16:15, arrival: 16:45 }
+      - { departure: 17:15, arrival: 17:45 }
+      - { departure: 18:15, arrival: 18:45 }
+      - { departure: 19:15 }

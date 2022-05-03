@@ -1,0 +1,17 @@
+ame: '(вул.: Залізнична, Героїв Небесної Сотні, Судилківська)'
+departure: Залізничний вокзал
+arrival: М’ясокомбінат
+schedules: 
+  - id: 1
+    times: 
+      - { departure: 6:20, arrival: 6:50 }
+      - { departure: 7:15, arrival: 7:35 }
+      - { departure: 9:15, arrival: 9:30, discount: true }
+      - { departure: 11:15, arrival: 11:30 }
+      - { departure: 13:00, arrival: 13:20 }
+      - { departure: 14:25, arrival: 14:40, discount: true }
+      - { departure: 16:00, arrival: 16:20 }
+      - { departure: 17:30, arrival: 18:45, discount: true }
+      - { departure: 19:00, arrival: 19:20, discount: true }
+      - { departure: 19:35, arrival: 19:50, discount: true }
+      - { departure: 20:05, arrival: 20:20 }

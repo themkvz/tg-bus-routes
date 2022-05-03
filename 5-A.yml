@@ -1,0 +1,63 @@
+name: '(вул.: Залізнична, Героїв Небесної Сотні, 400 років Шепетівки, Староконстянтинівське шосе)'
+departure: Залізничний вокзал
+arrival: Автостанція
+schedules: 
+  - id: 1
+    times: 
+      - { departure: 6:00, arrival: 6:50 }
+      - { departure: 7:00, arrival: 7:20 }
+      - { departure: 7:40, arrival: 8:05 }
+      - { departure: 8:30, arrival: 8:50, discount: true }
+      - { departure: 9:15, arrival: 9:35, discount: true }
+      - { departure: 10:00, arrival: 10:20 }
+      - { departure: 10:45, arrival: 11:05 }
+      - { departure: 11:30, arrival: 11:50 }
+      - { departure: 12:15, arrival: 12:35, discount: true }
+      - { departure: 13:00, arrival: 13:20 }
+      - { departure: 13:45, arrival: 14:05 }
+      - { departure: 14:30, arrival: 14:50 }
+      - { departure: 15:15, arrival: 15:35, discount: true }
+      - { departure: 16:00, arrival: 16:20 }
+      - { departure: 16:45, arrival: 17:05 }
+      - { departure: 17:30, arrival: 17:50 }
+      - { departure: 18:15, arrival: 18:35 }
+      - { departure: 19:00, arrival: 19:20 }
+      - { departure: 19:40, arrival: 20:00 }
+ - id: 2
+    times: 
+      - { departure: 7:15, arrival: 7:35 }
+      - { departure: 8:00, arrival: 8:20 }
+      - { departure: 8:45, arrival: 9:05 }
+      - { departure: 9:30, arrival: 9:50 }
+      - { departure: 10:15, arrival: 10:35, discount: true }   
+      - { departure: 11:00, arrival: 11:20 }
+      - { departure: 11:45, arrival: 12:05 }
+      - { departure: 12:30, arrival: 12:50 } 
+      - { departure: 13:15, arrival: 13:35, discount: true }   
+      - { departure: 14:00, arrival: 14:20 }
+      - { departure: 14:45, arrival: 15:05 }
+      - { departure: 15:30, arrival: 15:50 } 
+      - { departure: 16:15, arrival: 16:35, discount: true }   
+      - { departure: 17:00, arrival: 17:20 }
+      - { departure: 17:45, arrival: 18:05 } 
+ - id: 3
+    times: 
+      - { arrival: 7:05 }
+      - { departure: 7:30, arrival: 7:50 }
+      - { departure: 8:15, arrival: 8:35 }
+      - { departure: 9:00, arrival: 9:20 }
+      - { departure: 9:45, arrival: 10:05 }
+      - { departure: 10:30, arrival: 10:50 }
+      - { departure: 11:15, arrival: 11:35, discount: true }     
+      - { departure: 12:00, arrival: 12:20 }
+      - { departure: 12:45, arrival: 13:05 }
+      - { departure: 12:30, arrival: 13:50 }
+      - { departure: 14:15, arrival: 14:35, discount: true }   
+      - { departure: 15:00, arrival: 15:20 }
+      - { departure: 15:45, arrival: 16:05 }
+      - { departure: 16:30, arrival: 16:50 }
+      - { departure: 17:15, arrival: 17:35, discount: true }   
+      - { departure: 18:00, arrival: 18:20 }
+      - { departure: 18:40, arrival: 19:00 }
+      - { departure: 19:20, arrival: 19:50 }       
+      - { arrival: 21:10 }       

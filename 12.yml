@@ -1,0 +1,9 @@
+name: '(Пр. Миру, Судилківська, Об’їздна дорога)'
+departure: Залізничний вокзал
+arrival: Д/к «Імпульс»
+schedules: 
+  - id: 1
+    times: 
+      - { departure: 8:40, arrival: 9:15 }
+      - { departure: 14:00, arrival: 14:35 }
+      - { departure: 18:40, arrival: 19:15 }

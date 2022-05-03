@@ -1,0 +1,15 @@
+name: '(Автостанція – Судилків)'
+departure: Автостанція
+arrival: Судилків
+schedules: 
+  - id: 1
+    times: 
+      - { departure: 6:50, arrival: 7:20 }
+      - { departure: 7:50, arrival: 8:20 }
+      - { departure: 8:50, arrival: 9:20, discount: true }
+      - { departure: 9:50, arrival: 10:20 }
+      - { departure: перерва, arrival: перерва }
+      - { departure: 12:50, arrival: 13:20 }
+      - { departure: 13:50, arrival: 14:20, discount: true }
+      - { departure: 15:50, arrival: 16:20 }
+      - { departure: 16:50, arrival: 17:20 }

@@ -4,31 +4,29 @@ arrival: Автостанція
 schedules: 
   - id: з понеділка по п’ятницю
     times: 
-      - { departure: 6:50, arrival: 7:30 }
-      - { departure: 8:00, arrival: 8:30 }
-      - { departure: 9:00, arrival: 9:30, discount: true }
-      - { departure: 10:00, arrival: 10:30 }
-      - { departure: 11:00, arrival: 11:30 }
-      - { departure: 12:00, arrival: 12:30 }
-      - { departure: перерва, arrival: перерва }
-      - { departure: 14:00, arrival: 14:30 }
-      - { departure: 15:00, arrival: 15:30 }
-      - { departure: 16:00, arrival: 16:30 }
-      - { departure: 17:00, arrival: 17:30 }
-      - { departure: 18:20, arrival: 18:50, discount: true }
-      - { departure: 19:40 }
+      - { arrival: 7:05 }
+      - { departure: 7:30, arrival: 8:00 }
+      - { departure: 8:30, arrival: 9:00 }
+      - { departure: 9:30, arrival: 10:00 }
+      - { departure: 10:30, arrival: 11:00, discount: true }
+      - { departure: 11:30, arrival: 12:00 }
+      - { departure: 12:30, arrival: 13:00 }
+      - { departure: 13:30, arrival: 14:00 }
+      - { departure: 14:30, arrival: 15:00 }
+      - { departure: 15:30, arrival: 15:00 }
+      - { departure: 16:30, arrival: 17:00 }
+      - { departure: 17:30 }
   - id: в суботу
     times: 
-      - { departure: 6:50, arrival: 7:30 }
-      - { departure: 8:00, arrival: 8:30 }
-      - { departure: 9:00, arrival: 9:30, discount: true }
-      - { departure: 10:00, arrival: 10:30 }
-      - { departure: 11:00, arrival: 11:30 }
-      - { departure: 12:00, arrival: 12:30 }
+      - { departure: 6:50, arrival: 7:20 }
+      - { departure: 7:50, arrival: 8:20 }
+      - { departure: 8:50, arrival: 9:20 }
+      - { departure: 9:50, arrival: 10:20 }
+      - { departure: 10:50, arrival: 11:20, discount: true }
+      - { departure: 11:50, arrival: 12:20 }
+      - { departure: 12:50, arrival: 13:20 }
+      - { departure: 13:50, arrival: 14:20 }
       - { departure: перерва, arrival: перерва }
-      - { departure: 14:00, arrival: 14:30 }
-      - { departure: 15:00, arrival: 15:30 }
-      - { departure: 16:00, arrival: 16:30 }
-      - { departure: 17:00, arrival: 17:30 }
-      - { departure: 18:20, arrival: 18:50, discount: true }
-      - { departure: 19:40 }
+      - { departure: 15:50, arrival: 16:20 }
+      - { departure: 16:50, arrival: 17:20 }
+      - { departure: 17:50, arrival: 18:20 }

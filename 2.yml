@@ -1,0 +1,29 @@
+name: '(вул.: Залізнична, Героїв Небесної Сотні, В.Котика, Українська, Залізнична)'
+departure: Залізничний вокзал
+arrival: Залізничний вокзал
+schedules: 
+  - id: 1
+    times: 
+      - { departure: 7:20 }
+      - { departure: 7:50 }
+      - { departure: 8:20 }
+      - { departure: 8:50 }
+      - { departure: 9:20, discount: true }
+      - { departure: 9:50 }
+      - { departure: 10:20 }
+      - { departure: 10:50 }
+      - { departure: 11:20, discount: true }
+      - { departure: 11:50 }
+      - { departure: 12:20, discount: true }
+      - { departure: 12:50 }
+      - { departure: 13:20 }
+      - { departure: перерва }
+      - { departure: 14:20 }
+      - { departure: 14:50 }
+      - { departure: 15:20, discount: true }
+      - { departure: 15:50 }
+      - { departure: 16:50 }
+      - { departure: 16:20, discount: true }
+      - { departure: 17:20 }
+      - { departure: 17:50 }
+      - { departure: 18:20 }

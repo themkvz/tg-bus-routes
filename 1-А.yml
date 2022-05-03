@@ -21,21 +21,49 @@ schedules:
     times:
       - { departure: 7:15, arrival: 7:40 }
       - { departure: 8:15, arrival: 8:40, discount: true }
+      - { departure: 9:15, arrival: 9:40 }
+      - { departure: 10:15, arrival: 10:40 }
+      - { departure: 11:15, arrival: 11:40, discount: true }
+      - { departure: 12:15, arrival: 12:40 }
+      - { departure: 13:15, arrival: 13:40 }
+      - { departure: перерва, arrival: перерва }
+      - { departure: 15:15, arrival: 15:40, discount: true }
+      - { departure: 16:15, arrival: 16:40 }
+      - { departure: 17:15, arrival: 17:40 }
+      - { departure: 18:15, arrival: 18:40 }
+      - { departure: 19:15, arrival: 19:40 }
+      - { departure: 20:10, arrival: 20:30 }
   - id: 3
     times: 
-      - { departure: 7:00, arrival: 7:25 }
-      - { departure: 8:00, arrival: 8:25 }
-      - { departure: 9:00, arrival: 9:25 }
-      - { departure: 10:00, arrival: 10:25, discount: true }
-      - { departure: 11:00, arrival: 11:25 }
-      - { departure: 12:00, arrival: 12:25 }
+      - { departure: 6:30, arrival: 6:55 }
+      - { departure: 7:30, arrival: 7:55 }
+      - { departure: 8:30, arrival: 8:55 }
+      - { departure: 9:30, arrival: 9:55, discount: true }
+      - { departure: 10:30, arrival: 10:55 }
+      - { departure: 11:30, arrival: 11:55 }
+      - { departure: 12:30, arrival: 12:55 }
       - { departure: перерва, arrival: перерва }
-      - { departure: 14:00, arrival: 14:25, discount: true }
-      - { departure: 15:00, arrival: 15:25 }
-      - { departure: 16:00, arrival: 16:25 }
-      - { departure: перерва, arrival: перерва }
-      - { departure: 18:00, arrival: 18:25 }
-      - { departure: 19:00, arrival: 19:25 }
+      - { departure: 14:30, arrival: 14:55 }
+      - { departure: 15:30, arrival: 15:55 }
+      - { departure: 16:30, arrival: 16:55 }
+      - { departure: 17:30, arrival: 17:55, discount: true }
+      - { departure: 18:30, arrival: 18:55 }
+      - { departure: 19:35, arrival: 20:00 }
+  - id: 4
+    times: 
+      - { departure: 6:45, arrival: 7:10 }    
+      - { departure: 7:45, arrival: 8:10 }    
+      - { departure: 8:45, arrival: 9:10 }    
+      - { departure: 9:45, arrival: 10:10 }
+      - { departure: 10:45, arrival: 11:10, discount: true }    
+      - { departure: 11:45, arrival: 12:10 }    
+      - { departure: 12:45, arrival: 13:10 }    
+      - { departure: 13:45, arrival: 14:10 }    
+      - { departure: 14:45, arrival: 15:10 }    
+      - { departure: 15:45, arrival: 16:10, discount: true }
+      - { departure: перерва, arrival: перерва }        
+      - { departure: 17:45, arrival: 18:10 }    
+      - { departure: 18:45, arrival: 19:10 }    
 coords:
   - [27.06475,50.19566]
   - [27.0647,50.1955]

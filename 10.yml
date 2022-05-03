@@ -1,0 +1,17 @@
+name: '(вул.: Залізнична, Українська, 400 років Шепетівки, Староконстянтинівське шосе)'
+departure: Залізничний вокзал
+arrival: Автостанція
+schedules: 
+  - id: 1
+    times: 
+      - { departure: 6:40, arrival: 7:10 }
+      - { departure: 7:55, arrival: 8:25 }
+      - { departure: 8:55, arrival: 9:25 }
+      - { departure: 10:55, arrival: 11:25 }
+      - { departure: 11:55, arrival: 12:25 }
+      - { departure: 12:55, arrival: 13:25 }
+      - { departure: перерва, arrival: перерва }
+      - { departure: 16:25, arrival: 16:55 }
+      - { departure: 17:25, arrival: 17:55 }
+      - { departure: 18:25, arrival: 18:55 }
+      - { departure: 19:25 }
