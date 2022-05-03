@@ -23,7 +23,7 @@ schedules:
       - { departure: 18:15, arrival: 18:35 }
       - { departure: 19:00, arrival: 19:20 }
       - { departure: 19:40, arrival: 20:00 }
- - id: 2
+  - id: 2
     times: 
       - { departure: 7:15, arrival: 7:35 }
       - { departure: 8:00, arrival: 8:20 }
@@ -40,7 +40,7 @@ schedules:
       - { departure: 16:15, arrival: 16:35, discount: true }   
       - { departure: 17:00, arrival: 17:20 }
       - { departure: 17:45, arrival: 18:05 } 
- - id: 3
+  - id: 3
     times: 
       - { arrival: 7:05 }
       - { departure: 7:30, arrival: 7:50 }

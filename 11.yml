@@ -17,7 +17,7 @@ schedules:
       - { departure: перерва, arrival: перерва }
       - { departure: 17:25, arrival: 17:50 }
       - { departure: 18:25, arrival: 18:50 }
- - id: 2
+  - id: 2
     times: 
       - { departure: 6:50, arrival: 7:15 }
       - { departure: 7:50, arrival: 8:15 }
